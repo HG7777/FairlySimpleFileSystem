@@ -4,7 +4,7 @@
 
 Within my implementation, free space and occupied space is managed similarly.
 The entire process can be described as shown in this diagram:
-![Structure Diagram](https://github.com/HG7777/FairlySimpleFileSystem/tree/master/img/struct.PNG)
+![Structure Diagram](/img/struct.PNG)
 
 In this system, we use iNodes to keep track of each file that is being created. Within the structure of the iNode we have:
   - id: number of the specific iNode
@@ -45,4 +45,7 @@ particular offsets.
   
 ###### The data should be intact when exiting the PORTAL (shell) and entering it again. (Though, when make is run again, it will create a new FileSys)
 
-![Demo One]()
+![Demo One](/img/demo.PNG)
+![Demo Two](/img/anotherDemo.PNG)
+![Fail Cases](/img/failCases.PNG)
+![Exiting Portal](/img/leavingThePortal.PNG)
