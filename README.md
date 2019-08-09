@@ -4,6 +4,7 @@
 
 Within my implementation, free space and occupied space is managed similarly.
 The entire process can be described as shown in this diagram:
+
 ![Structure Diagram](/img/struct.PNG)
 
 In this system, we use iNodes to keep track of each file that is being created. Within the structure of the iNode we have:
@@ -44,6 +45,7 @@ particular offsets.
   - exit: leave portal
   
 ###### The data should be intact when exiting the PORTAL (shell) and entering it again. (Though, when make is run again, it will create a new FileSys)
+
 
 ![Demo One](/img/demo.PNG)
 ![Demo Two](/img/anotherDemo.PNG)
