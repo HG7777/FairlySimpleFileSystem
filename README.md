@@ -4,7 +4,7 @@
 
 Within my implementation, free space and occupied space is managed similarly.
 The entire process can be described as shown in this diagram:
-![Structure Diagram](https://github.com/HG7777/FairlySimpleFileSystem/img/struct.PNG)
+![Structure Diagram](https://github.com/HG7777/FairlySimpleFileSystem/tree/master/img/struct.PNG)
 
 In this system, we use iNodes to keep track of each file that is being created. Within the structure of the iNode we have:
   - id: number of the specific iNode
